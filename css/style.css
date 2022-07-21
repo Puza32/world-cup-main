@@ -321,12 +321,9 @@ footer li{
 .container {
      margin: 10px;
  }
- 
  .cover img{
     width: 300px;
-    
  }
- 
  .top-section{
     display:grid;
     grid-template-columns: repeat(1,1fr);
