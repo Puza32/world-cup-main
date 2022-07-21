@@ -157,6 +157,9 @@ nav{
     font-size: 16px;
     color:rgba(22, 22, 22, 0.7);
  }
+ .view-all span{
+    visibility: hidden;
+ }
 /*Style for footer section */ 
  footer{
     background-color: #161616;
@@ -248,7 +251,6 @@ footer li{
 @media only screen and (max-width:688px)  {
  
  .container{
-    width: 100%;
     overflow:hidden;
  }
     .cover{
@@ -260,7 +262,7 @@ footer li{
     width: 200px;
  }
 .cover-section h2{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;  
 }
 .cover-section p{
@@ -268,7 +270,10 @@ footer li{
 }
  
 .match-status nav{
-    background-color: white;
+    background-color: #F3F1FF;
+}
+.match-status li{
+    list-style-type: none;
 }
 .match-status .match{
     border: 1px solid black;
@@ -315,7 +320,6 @@ footer li{
  @media only screen and (min-width:688px) and (max-width:992px){
 .container {
      width: 100%;
-     overflow: hidden;
  }
  
  .cover img{
@@ -326,7 +330,6 @@ footer li{
  .top-section{
     display:grid;
     grid-template-columns: repeat(1,1fr);
-    margin-right: 800px;
  }
  .match-status nav {
     background-color: #F3F1FF;
@@ -361,6 +364,7 @@ footer li{
  .view-all span{
     visibility: visible;
     color: white;
+    font-size: 20px;
  }
  footer{
     margin-left: 100px;
