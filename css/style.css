@@ -322,20 +322,48 @@ footer li{
     width: 300px;
     
  }
- header{
-    margin-left: 100px;
- }
+ 
  .top-section{
-    
     display:grid;
     grid-template-columns: repeat(1,1fr);
+    margin-right: 800px;
  }
- .match-status {
-    background-color: white;
+ .match-status nav {
+    background-color: #F3F1FF;
+}
+.match-status li{
+    list-style-type: none;
+}
+.match-status ul{
+    display: flex;
+    flex-direction: row;
+}
+.match-status .match{
+    border: 1px solid black;
+}
+.match-status .blog{
+    border: 1px solid black;
+}
+.match-status .group{
+    border: 1px solid black;
 }
  .live-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+ }
+ .view-all{
+    width: 100px;
+    height: 50px;
+    background-color: #DD0000;
+    margin-left: 300px;
+   
+ }
+ .view-all span{
+    visibility: visible;
+    color: white;
+ }
+ footer{
+    margin-left: 100px;
  }
 
     }
